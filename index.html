@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque HTML</title>
+    <link rel="icon" href="pngegg.png">
+</head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+
+    <main>
+      <h1>Portfolio</h1>
+      <section id="home">
+        <h2>Home</h2>
+      <img width="250"  src="13b.jpg" alt="not found">
+        <br> 
+      <p>welcome to my new library</p>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+          <p>our library contains different types of roamins with reasonable prices</p>
+      </section>
+      <section id="work">
+        <h2>work</h2>
+          <table>
+            <tr>
+              <th>nom</th>
+              <th>auteure</th>
+              <th>type</th>
+              <th>price</th>
+            </tr>
+            <tr>
+              <td>Emma</td>
+              <td>jane austen</td>
+              <td>romantic</td>
+              <td>25dt</td>
+            </tr>
+            <tr>
+              <td>skin heads</td>
+              <td>jhon king</td>
+              <td>fiction</td>
+              <td>30dt</td>
+            </tr>
+          </table>
+      </section>
+      <section id="resume">
+        <h2>resume</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T9aaI8rUbT4?si=FpSGz6ZLrcAqbgBm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+      </section>
+      <section id="contact">
+        <h2>contact</h2>
+        <form>
+          <label>Name</label>
+                <input type="text">
+                <br>
+                <br>
+                <label>Phone</label>
+                <input type="number">
+                <br>
+                <br>
+                <label>Naissance</label>
+                <input type="date">
+                <br>
+                <br>
+                <label>Photo</label>
+                <input type="file">
+                <br>
+                <br>
+                <label>Message</label>
+                <textarea></textarea>
+                <br>
+                <br>
+
+                <button>Envoyer</button>
+        </form>
+      </section>
+
+      
+    </main>
+    <footer>
+      <p id="datetime"></p>
+
+<script>
+  // Get current date and time
+  var now = new Date();
+  var datetime = now.toLocaleString();
+
+  // Insert date and time into HTML
+  document.getElementById("datetime").innerHTML = datetime;
+</script>
+        <br>
+        <dl>
+          <dt>nom</dt>
+          <dd>fedi bey</dd>
+
+          <dt>mail</dt>
+          <dd>fedi.bey1@gmail.com</dd>
+          <p>if you want any questions we can help you</p>
+          <label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q" />
+
+<button>Search</button>
+      </dl>
+    </footer>
+    
+
+
+    
+    
+</body>
+</html>
