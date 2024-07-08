@@ -83,3 +83,13 @@ dl {
 video {
     margin-left: 5px;
 }
+
+input{
+    margin-left: 58px;
+}
+dl {
+    margin-left: 400px;
+}
+label {
+    color: black;
+}
