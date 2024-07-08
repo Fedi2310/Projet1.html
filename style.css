@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    margin-left: 2%;
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.main-header {
+    background-image: url(clouds-dawn-dusk-777211.jpg);
+    background-size: cover;
+}
+main {
+    background-image: url(cloud_computing_-_a_bank_vault_or_a_castle_in_the_sky__jpg__840x620_q90_crop_subsampling-2.jpg);
+
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+img {
+    width: 28%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+p {
+    color: rgb(184, 117, 29);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: initial;
+}
+table {
+    margin: 100px auto;
+    width: auto;
+    border: 1px solid maroon;
+}
+tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+th, td {
+    padding: 15px 20px;
+    color: black;
+
+}
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+footer p {
+    text-align: center;
+    color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+dl {
+    text-align: left;
+}
+video {
+    margin-left: 5px;
+}
